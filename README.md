@@ -9,7 +9,7 @@ how to build ProteoWizard native executable on macOS Catalina (10.15) and Apple 
 　- Apple clang version 11.0.3 (clang-1103.0.32.62)
 
 
-##  build error of boost 1.67 to fix by this patch
+##  build error of boost 1.67 solved by the patch
 1. clang: error: unknown argument: '-fcoalesce-templates'
   - https://github.com/macports/macports-ports/commit/d6307dd3c34709aeed8b24af5fbcce6b23118670  
 2. /libraries/boost_1_67_0/boost/atomic/detail/ops_gcc_x86_dcas.hpp:408:16: error: address argument to atomic builtin cannot be const-qualified ('const volatile boost::atomics::detail::gcc_dcas_x86_64::storage_type *' (aka 'const volatile unsigned __int128 *') invalid)
