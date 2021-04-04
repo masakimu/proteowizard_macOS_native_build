@@ -10,8 +10,7 @@ how to build ProteoWizard native executable on macOS Catalina (10.15) and Apple 
 
 
 ##  build error of boost 1.67 solved by the patch.
-
-follwogin links are references for valuable information to fix build error.
+The patch is just an assembly of previous valuable patches and comments shown in following links (Thanks to authors of those resources): 
 
 1. clang: error: unknown argument: '-fcoalesce-templates'
   - https://github.com/macports/macports-ports/commit/d6307dd3c34709aeed8b24af5fbcce6b23118670  
