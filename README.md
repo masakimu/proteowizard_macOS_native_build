@@ -1,6 +1,6 @@
 # A patch to build macOS native build of ProteoWizard
 The patch is provided to build ProteoWizard native executable on macOS Catalina (10.15) and Apple clang 11.0.3.
-This patch fix errors occurred during build of boost 1.67.
+This patch fixes errors occurred during build of boost 1.67 [1, 2, 3].
 
 ## Target macOS Environment
 - Targeted ProteoWizard version: 3 0 20306  (pwiz-src-without-v-3_0_20306_f98a963 )  (NO 3rd party reader) obtained from ProteoWizard's download site: http://proteowizard.sourceforge.net/download.html
