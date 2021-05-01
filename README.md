@@ -20,7 +20,7 @@ I made the patch based on following valuable patches and comments.
 3. /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:2495:5: error: static_assert failed due to requirement 
   - https://github.com/sneumann/mzR/issues/190
      - https://github.com/sneumann/mzR/commit/d9ea53110b65246e20a0fae4c6446a15901a6801
-       - thich patch call boost::first_max/min_element instead of std::min/max_element at boost::range::min/max_element
+       - this patch call boost::first_max/min_element instead of std::min/max_element at boost::range::min/max_element
 
 
 
