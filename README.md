@@ -1,5 +1,6 @@
-# macOS native build of ProteoWizard
-How to build ProteoWizard native executable on macOS Catalina (10.15) and Apple clang 11.0.3.
+# A patch to build macOS native build of ProteoWizard
+The patch is provided to build ProteoWizard native executable on macOS Catalina (10.15) and Apple clang 11.0.3.
+This patch fix errors occurred during build of boost 1.67.
 
 ## Target macOS Environment
 - Targeted ProteoWizard version: 3 0 20306  (pwiz-src-without-v-3_0_20306_f98a963 )  (NO 3rd party reader) obtained from ProteoWizard's download site: http://proteowizard.sourceforge.net/download.html
@@ -8,9 +9,8 @@ How to build ProteoWizard native executable on macOS Catalina (10.15) and Apple 
   - Xcode 11.6
 　- Apple clang version 11.0.3 (clang-1103.0.32.62)
 
-
-##  patch for source codes to solve build error of boost 1.67
-The patch provided from this repository is just an assembly of previous valuable patches and comments shown in following links (Thanks to authors of those resources): 
+## References
+I made the patch based on following valuable patches and comments.
 
 1. clang: error: unknown argument: '-fcoalesce-templates'
   - https://github.com/macports/macports-ports/commit/d6307dd3c34709aeed8b24af5fbcce6b23118670  
